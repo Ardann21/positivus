@@ -28,6 +28,12 @@ const Testimonials = () => {
         </div>
       </div>
 
+      <p className="md:text-xl">
+            For a B2B software company, we developed an SEO strategy that
+            resulted in a first page ranking for key keywords and a 200%
+            increase in organic traffic.
+          </p>
+
       <div
         ref={slider}
         className="rounded-none text-white flex gap-3 overflow-x-auto mx-5 scroll md:bg-[#191A23] mb-5 md:justify-between md:rounded-[70px] md:py-12 relative hide-scrollbar scroll-smooth"
