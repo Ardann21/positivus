@@ -28,8 +28,6 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <h1>This is my change</h1>
-
       <div
         ref={slider}
         className="rounded-none text-white flex gap-3 overflow-x-auto mx-5 scroll md:bg-[#191A23] mb-5 md:justify-between md:rounded-[70px] md:py-12 relative hide-scrollbar scroll-smooth"
