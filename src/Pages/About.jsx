@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import AboutHero from "../Components/AboutHero";
+import Numbers from "../Components/Numbers";
+import Journey from "../Components/Journey";
+import Core from "../Components/Core";
 
 const About = () => {
   return (
     <>
-    <h1>About us Part</h1>
+      <AboutHero />
+      <Numbers />
+      <Journey />
+      <Core />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
-import link from "../assets/Link.png"; // Ensure this path is correct
 
 const Testimonials = () => {
-  const slider = useRef(null); // Initialize useRef with null for best practice
+  const slider = useRef(null);
 
   const slideRight = () => {
     if (slider.current) {
@@ -19,7 +18,6 @@ const Testimonials = () => {
 
   return (
     <>
-      {/* Header section for testimonials */}
       <div className="flex flex-col md:flex-row justify-center md:justify-start md:ml-23 gap-5 mt-22 mb-12">
         <div>
           <button className="bg-[#B9FF66] py-2 px-3 mx-auto rounded-md text-4xl">
@@ -175,7 +173,6 @@ const Testimonials = () => {
           </div>
         </div>
 
-        {/* Left Button - positioned absolutely relative to the NEW outer container */}
         <div className="absolute transform left-0 ml-22 md:ml-72">
           <FaArrowCircleLeft
             className="text-[#B9FF66] cursor-pointer"
@@ -184,7 +181,6 @@ const Testimonials = () => {
           />
         </div>
 
-        {/* Right Button - positioned absolutely relative to the NEW outer container */}
         <div className="absolute transform right-0 mr-22 md:mr-72">
           <FaArrowCircleRight
             className="text-[#B9FF66] cursor-pointer"
