@@ -3,6 +3,7 @@ import AboutHero from "../Components/AboutHero";
 import Numbers from "../Components/Numbers";
 import Journey from "../Components/Journey";
 import Core from "../Components/Core";
+import Awards from "../Components/Awards";
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <Numbers />
       <Journey />
       <Core />
+      <Awards />
     </>
   );
 };
