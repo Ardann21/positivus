@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CaseHero from "../Components/CaseHero.jsx";
 
-const  Use = () => {
+const Use = () => {
   return (
-    <div>Use Case Part</div>
-  )
-}
+    <>
+      <CaseHero />
+    </>
+  );
+};
 
-export default Use
+export default Use;
