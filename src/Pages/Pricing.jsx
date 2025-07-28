@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Price from "../Components/Price";
+import Questions from "../Components/Questions";
 
 const Pricing = () => {
   return (
-    <div>Pricing Part</div>
-  )
-}
+    <>
+      <Price />
+      <Questions />
+    </>
+  );
+};
 
-export default Pricing
+export default Pricing;
